@@ -1,0 +1,54 @@
+body {
+    background-color: #F7C1C1;
+    height : 100%;
+    width: 100%;
+    margin:0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+.app{
+    width: 500 px;
+    display:flex;
+    background-color: white;
+    border: 0.25 rem solid #cec0a1;
+    border-radius:o.5 rem;
+    padding: 1 rem;
+    overflow-y:auto;
+}
+.song-box {
+    border: 1px solid #cec0a1;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: #fff8f8;
+}
+
+.song-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+.left-box {
+    
+    width: 150 px;
+    max-width: 60%;
+    overflow-wrap: break-word;
+}
+.song-title {
+    
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+}
+
+.song-artist {
+    font-size: 1rem;
+    color: #555;
+}
+h3 {
+    border-bottom: 2px solid #cec0a1;
+    padding-bottom: 0.5rem;
+}
